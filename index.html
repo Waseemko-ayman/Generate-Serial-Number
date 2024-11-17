@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Generate Serial Number</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Serial Number Generator</h1>
+    </header>
+
+    <main>
+      <div class="form-group">
+        <label for="serial-length">Enter Length of Serial Number:</label>
+        <input type="number" id="serial-length" placeholder="e.g., 8">
+      </div>
+      
+      <div class="form-group">
+        <label for="separator">Enter Separator (Optional):</label>
+        <input type="text" id="separator" maxlength="1" placeholder="e.g., -">
+      </div>
+
+      <button id="generate-btn">Generate</button>
+
+      <div class="output">
+        <h2>Generated Serial Number:</h2>
+        <p id="serial-output">---</p>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
