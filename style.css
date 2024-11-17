@@ -36,7 +36,7 @@ header h1 {
   text-align: left;
 }
 
-:is(label, input, button, #serial-output) {
+label, input, button, #serial-output {
   font-size: 1rem;
 }
 
@@ -74,6 +74,11 @@ button:hover {
 
 .output {
   margin-top: 2rem;
+}
+
+.output h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 #serial-output {
